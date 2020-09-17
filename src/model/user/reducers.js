@@ -3,6 +3,7 @@ const initialState = {
   isLoading: true,
   isSignout: false,
   userToken: null,
+
 };
 
 const reducer = (state = initialState, action) => {

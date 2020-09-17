@@ -15,7 +15,7 @@ export function DrawerContent(props) {
   const [userName, setUserName] = useState('Bharathi');
   const res = userName.split('@purple.com');
   console.log(res);
-  const userprofilename = 'Hello' + ',';
+  const userprofilename = 'Hello' + ',' + userName;
 
   const dispatch = useDispatch();
 
