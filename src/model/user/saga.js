@@ -40,6 +40,8 @@ function* loginUser(action) {
     console.log(userlogin);
 
     yield call(storeData, userlogin.UserUniqueId);
+
+
     yield put({
       type: 'LOGIN-SUCCESS',
       payload: {
